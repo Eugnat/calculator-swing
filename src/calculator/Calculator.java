@@ -20,9 +20,9 @@ public class Calculator implements ActionListener {
 	private JTextField textField = new JTextField();
 	private GridBagLayout layout = new GridBagLayout();
 	private GridBagConstraints gbc = new GridBagConstraints();
-	private Formatter formatter = new Formatter(Locale.UK);
 	
-	boolean complete = false;
+	
+	private boolean complete = false;
 	
 	
 	public Calculator() {
@@ -139,7 +139,7 @@ SwingUtilities.invokeLater(new Runnable() {
 			
 		}
 		
-		
+		Formatter formatter = new Formatter(Locale.UK);
 		
 		if (total - Math.floor(total) > 0)
 		{
