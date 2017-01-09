@@ -7,7 +7,7 @@ The following patterns can be calculated. For the sake of simplicity no spaces a
 4-(-5);
 5-((4-3)+(45-3)+(4/5));
 
-The list is not exhaustive.
+The list is not exhaustive. The calculator also recognizes decimal numbers and order of calculation (multiply/divide functions are performed first).
 
 If an error is recognized (wrong notation or parsing error), ERROR is displayed in the output field.
 
